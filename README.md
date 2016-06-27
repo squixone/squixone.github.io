@@ -1,4 +1,4 @@
 # squixone.github.io
-https://squixone.github.io/site1
+https://squixone.github.io/projects/designstudios
 
-https://squixone.github.io/site2
+https://squixone.github.io/projects/barbershop
