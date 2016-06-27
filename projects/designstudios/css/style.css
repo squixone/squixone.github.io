@@ -157,9 +157,14 @@ li {
 }
 
 /*Font-Family*/
-.logo, .main-navigation a, .title h1, .title h2, 
-.conteiner .description, .features-row .features-title, 
-.features-row .features-button, .content-colom-title, 
+.logo,
+.main-navigation a,
+.title h1,
+.title h2, 
+.conteiner .description,
+.features-row .features-title,
+.features-row .features-button,
+.content-colom-title, 
 .footer-copyright {
 	letter-spacing: -0.04em;
 }
@@ -243,22 +248,22 @@ li {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-.index-content .content-column-left .content-name {
+.content-column-left .content-name {
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 14px;
 	font-height: 18px; 
 }
-.index-content .content-column-left .content-proffesion {
+.content-column-left .content-proffesion {
 	font-family: Arial;
 	font-size: 14px;
 	font-height: 18px;
 	color: #00aeef;
 }
-.index-content .content-column-right p {
+.content-column-right p {
 	margin-top: 2px;
 }
-.index-content .content-column-right a {
+.content-column-right a {
 	font-family: Arial;
 	font-size: 14px;
 	font-height: 20px;
