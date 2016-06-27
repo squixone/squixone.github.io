@@ -66,24 +66,36 @@ li {
 	margin: 0;
 }
 .main-navigation li {
+	position: relative;
 	float: left;
 	list-style: none;
+	padding-right: 30px;
 }
 .main-navigation a {
 	display: block;
 	padding: 7px 0;
-	margin-right: 30px;
     text-decoration: none;
     color: #eeeeee;
     font-size: 16px;
 }
 .main-navigation li:last-child{
-    margin-right: -25px;
+    padding-right: 0;
 }
 .main-navigation .active a,
 .main-navigation a:hover {
 	color: #00aeef;
 }
+.main-navigation li:nth-child(1)::after,
+.main-navigation li:nth-child(2)::after,
+.main-navigation li:nth-child(3)::after,
+.main-navigation li:nth-child(4)::after {
+	position: absolute;
+	content: "--";
+	color: #fff;
+	top: 6px;
+	right: 10px;
+}
+
 
 /*Content*/
 .conteiner {
@@ -377,11 +389,4 @@ input[type="submit"]:hover {
 }
 .modal-error {
 	animation: shake 0.6s;
-}
-
-/*OPANCI_TEST)(No ctive item menu)*/
-.main-navigation li:nth-child(2),
-.main-navigation li:nth-child(3),
-.main-navigation li:nth-child(4) {
-	opacity: 0.3;
 }
