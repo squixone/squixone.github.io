@@ -43,7 +43,7 @@ li {
 }
 
 /*Header*/
-.main-header {
+.header {
 	height: 133px;
 	background: #333333;
 }
@@ -56,39 +56,39 @@ li {
 	font-family: MyriadProRegular;
 	color: #eeeeee;
 }
-.main-navigation {
+.navigation {
 	float: right;
 	height: 23px;
 	margin-top: 60px;
 }
-.main-navigation ul {
+.navigation ul {
 	padding: 0;
 	margin: 0;
 }
-.main-navigation li {
+.navigation li {
 	position: relative;
 	float: left;
 	list-style: none;
 	padding-right: 30px;
 }
-.main-navigation a {
+.navigation a {
 	display: block;
 	padding: 7px 0;
     text-decoration: none;
     color: #eeeeee;
     font-size: 16px;
 }
-.main-navigation li:last-child{
+.navigation li:last-child{
     padding-right: 0;
 }
-.main-navigation .active a,
-.main-navigation a:hover {
+.navigation .active a,
+.navigation a:hover {
 	color: #00aeef;
 }
-.main-navigation li:nth-child(1)::after,
-.main-navigation li:nth-child(2)::after,
-.main-navigation li:nth-child(3)::after,
-.main-navigation li:nth-child(4)::after {
+.navigation li:nth-child(1)::after,
+.navigation li:nth-child(2)::after,
+.navigation li:nth-child(3)::after,
+.navigation li:nth-child(4)::after {
 	position: absolute;
 	content: "--";
 	color: #fff;
@@ -164,13 +164,13 @@ li {
 }
 
 /*Footer*/
-.main-footer {
+.footer {
 	
 }
 
 /*Font-Family*/
 .logo,
-.main-navigation a,
+.navigation a,
 .title h1,
 .title h2, 
 .conteiner .description,
