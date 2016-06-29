@@ -290,69 +290,72 @@ li {
 }
 
 /*Popup*/
-.contact-us-optional{
-  display: none;
-  position: absolute;
-  text-align: center;
-  border: solid #00aeef 2px;
-  background-color: white;
-  width: 350px;
-  min-height: 260px;
-  padding-left: 10px;
-  padding-right:10px;
-  padding-top: 30px;
-  border-radius: 5px;
-  position: fixed;
-  top: 140px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+.contact-us-optional {
+	display: none;
+	position: absolute;
+	text-align: center;
+	border: solid #00aeef 2px;
+	background-color: white;
+	width: 350px;
+	min-height: 260px;
+	padding-left: 10px;
+	padding-right:10px;
+	padding-top: 30px;
+	border-radius: 5px;
+	position: fixed;
+	top: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }
 .contact-us-optional-show {
 	display: block;
 }
-.field{
-  clear:both;
-  text-align:right;
-  line-height:25px;
+.field {
+	clear:both;
+	text-align:right;
+	line-height:25px;
 }
-label{
-  font-family: MyriadProRegular;
-  font-size: 20px;
-  line-height: 35px;
-  color: #333333;
-  padding-right:10px;
+label {
+	font-family: MyriadProRegular;
+	font-size: 20px;
+	line-height: 35px;
+	color: #333333;
+	padding-right:10px;
 }
-input[type="text"]{
-  height: 20px;
-  font-family: MyriadProRegular;
-  font-size: 20px;
-  color: black;
-  border: #00aeef solid 2px;
+input[type="text"] {
+	height: 20px;
+	width: 220px;
+	font-family: MyriadProRegular;
+	font-size: 20px;
+	color: black;
+	border: #00aeef solid 2px;
 }
-textarea[type="text"]{
-  font-family: MyriadProRegular;
-  font-size: 20px;
-  color: black;
-  border: #00aeef solid 2px;
-  padding-right: 0px;
-  margin-right: 6px;
+textarea[type="text"] {
+	height: 170px;
+	width: 220px;
+	font-family: MyriadProRegular;
+	font-size: 20px;
+	color: black;
+	border: #00aeef solid 2px;
+	padding-right: 0px;
+	margin-right: 6px;
 }
-input[type="submit"]{
-  width: 200px;
-  margin-top: 5px;
-  color: #fff; 
-  text-decoration: none;
-  user-select: none; 
-  background-color: #0076a3;
-  outline: none; 
-  font-family: MyriadProRegular;
-  font-size: 18px;
-  line-height: 41px;
-  border: 0;
-  box-shadow: inset 0 0 3px #235162;
-  margin-bottom: 14px;
+input[type="submit"] {
+	width: 200px;
+	margin-top: 5px;
+	color: #fff; 
+	text-decoration: none;
+	user-select: none; 
+	background-color: #0076a3;
+	outline: none; 
+	font-family: MyriadProRegular;
+	font-size: 18px;
+	line-height: 41px;
+	border: 0;
+	box-shadow: inset 0 0 3px #235162;
+	margin-bottom: 14px;
 }
 input[type="submit"]:hover {
 	background-color: #888888;
@@ -367,8 +370,8 @@ input[type="submit"]:hover {
 	width: 35px;
 	height: 35px;
 }
-.necessarily{
-  color: red;
+.necessarily {
+	color: red;
 }
 
 /*Animation Popup*/
