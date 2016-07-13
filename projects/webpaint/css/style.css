@@ -39,7 +39,8 @@ img {
 
 
 .header {
-  min-height: 100px;
+  min-height: 99px;
+  border: 1px solid #262626;
   background: #262626;
 }
 .logo {
@@ -321,11 +322,32 @@ figure {
   line-height: 80px;
 }
 
-@media(max-width: 1110px) {
+@media(max-width: 1150px) {
   .container {
   width: auto;
   }
+  .logo{
+    float: none;
+    margin: 15px auto 0;
+  }
+  .navigation {
+    margin: 0 auto;
+    float: none;
+  }
+  .navigation__item {
+    float: none;
+    display: inline-block;
+    margin-right: 8%;
+  }
   .content-block__item:nth-child(4n) {
     margin-right: 10px;
+  }
+  .features-item {
+    margin-right: 0;
+  }
+  .footer__adress {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
   }
 }
