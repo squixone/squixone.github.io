@@ -351,4 +351,7 @@ figure {
     width: 200px;
     margin: 0 auto;
   }
+  .footer__social-btn{
+    margin-bottom: 20px;
+  }
 }
