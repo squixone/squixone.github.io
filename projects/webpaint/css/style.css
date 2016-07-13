@@ -337,7 +337,7 @@ figure {
   .navigation__item {
     float: none;
     display: inline-block;
-    margin-right: 8%;
+    margin-right: 6%;
   }
   .content-block__item:nth-child(4n) {
     margin-right: 10px;
