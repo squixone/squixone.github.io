@@ -343,11 +343,12 @@ figure {
     margin-right: 10px;
   }
   .features-item {
+    margin-top: 20px;
     margin-right: 0;
   }
   .footer__adress {
     display: block;
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
   }
 }
