@@ -221,7 +221,7 @@ figure {
 
 
 
-.footer-one {
+.footer-max {
   min-height: 285px;
   background-color: #313131;
   border: 1px solid #313131;
@@ -309,7 +309,7 @@ figure {
   background: #d35051 url(../img/pinterest.png);
 }
 
-.footer-two {
+.footer-min {
   min-height: 80px;
   background-color: #282828;
   border: 1px solid #282828;
