@@ -331,8 +331,8 @@ figure {
     margin: 15px auto 0;
   }
   .navigation {
-    margin: 0 auto;
     float: none;
+    margin: 0 auto;
   }
   .navigation__item {
     float: none;
