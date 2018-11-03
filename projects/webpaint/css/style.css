@@ -133,6 +133,7 @@ img {
   width: 235px;
   margin-top: 85px;
   margin-right: 40px;
+  vertical-align: top;
 }
 .features-item__img {
   display: inline-block;
