@@ -35,9 +35,6 @@ img {
   background-color: #232838;
   box-shadow: 0 10px 6px #232838;
 }
-.navigation-dropdown {
-  display: none;
-}
 .logo {
   margin-top: 19px;
   float: left;
@@ -81,6 +78,9 @@ img {
   line-height: 26px;
   text-transform: uppercase;
 }
+.navigation__link:hover {
+  color: #3dc054;
+}
 .search-input {
   width: 64px;
   font-family: Montserrat;
@@ -95,8 +95,39 @@ img {
   padding: 0;
   margin-left: 20px;
 }
-
 ::placeholder {
   color: white;
   opacity: 1;
+}
+.navigation-dropdown {
+  position: absolute; 
+  display: block;
+  top: 64px;
+  width: 260px;
+  height: 325px;
+  background-color: white;
+}
+.navigation-dropdown::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  width: 0; 
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid #ffffff;
+}
+.navigation-dropdown__item {
+  color: #14192b;
+  font-family: "Titillium Web";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.navigation-dropdown__link {
+  display: block;
+  width: 220px;
+  margin: 0 20px;
+  border-bottom: 1px solid #e9e9eb;
 }
