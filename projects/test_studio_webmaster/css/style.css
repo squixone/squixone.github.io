@@ -50,7 +50,7 @@ img {
 }
 .navigation__item {
   float: left;
-  padding-right: 42px;
+  padding-right: 40px;
   position: relative;
 }
 .navigation__item:nth-child(1)::after,
@@ -82,7 +82,7 @@ img {
   text-transform: uppercase;
 }
 .search-input {
-  width: 53px;
+  width: 64px;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
