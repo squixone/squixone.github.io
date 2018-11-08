@@ -325,7 +325,7 @@ figure {
 
 @media(max-width: 1150px) {
   .container {
-  width: auto;
+    width: auto;
   }
   .logo {
     float: none;
