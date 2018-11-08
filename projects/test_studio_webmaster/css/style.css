@@ -90,14 +90,12 @@ img {
   color: white;
   text-transform: uppercase;
   background-color: #232838;
-  border: 1px solid white;
+  border: 0;
   outline: none;
   padding: 0;
   margin-left: 20px;
 }
-.search-input {
 
-}
 ::placeholder {
   color: white;
   opacity: 1;
