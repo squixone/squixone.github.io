@@ -150,18 +150,20 @@
 
   <footer class="main-footer">
     <div class="footer-contact">
+      <div class="container clearfix"><!-- Center -->
       <h4 class="footer-contact__title">Kontaktieren Sie uns</h4>
-      <form action="/echo" method="post">
-        <input type="text" name="name" placeholder="Ihr Name">
-        <input type="text" name="theme" placeholder="Thema">
-        <input type="text" name="message" placeholder="Ihre Nachricht">
-        <p class="footer-contact__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-        <button class="btn" type="submit">Senden</button>
-        <input type="submit" value="Senden" class="btn">
+      <form class="contact-form" action="/echo" method="post">
+        <input class="contact-input" type="text" name="name" placeholder="Ihr Name">
+        <input class="contact-input" type="text" name="message" placeholder="Ihre Nachricht">
+        <input class="contact-input" type="text" name="theme" placeholder="Thema">
+        <input type="submit" value="Senden" class="btn btn--footer-contact">
       </form>
+      <p class="footer-contact__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+      </div>
     </div>
 
-    <div class="footer">
+    <div class="footer-bottom">
+      <div class="container clearfix"><!-- Center -->
       <div class="footer-left">
         <p class="footer-title">Navigation</p>
         <nav class="footer-navigation">
@@ -185,6 +187,7 @@
         <input type="email" name="email" placeholder="E-mail">
         <button type="submit" class="btn">Jetzt abonnieren</button>
         <p class="footer__copyright">TA 2016 © Alle Rechte vorbehalten.</p>
+      </div>
       </div>
     </div>
   </footer>

@@ -239,11 +239,71 @@ img {
 }
 .news-content-wrapper:hover{
   top: 0;
+  -webkit-transition: top 0.3s ease-out 0.1s;
+  -moz-transition: top 0.3s ease-out 0.1s;
+  -o-transition: top 0.3s ease-out 0.1s;
+  transition: top 0.3s ease-out 0.1s;
 }
 .btn--news__content{
   margin-left: 20px;
 }
 
+
+
+
 .main-footer {
-  margin-top: -120px;
+  margin-top: -99px;
+}
+.footer-contact {
+  position: relative;
+  min-height: 250px;
+  background-color: #1f7c8f;
+  border-top: 1px solid #1f7c8f;
+}
+.footer-contact__title {
+  text-align: center;
+  margin-top: 29px;
+  margin-bottom: 27px;
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 46px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.contact-form {
+  font-size: 0;
+}
+.contact-input {
+  display: inline-block;
+  width: 564px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 0 8px;
+  background-color: white;
+  font-family: "Titillium Web";
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 2px;
+  border: 0;
+}
+.contact-input::placeholder {
+  color: #b8b8b8;
+  opacity: 1;
+}
+.contact-input:nth-child(2n) {
+  margin-right: 0;
+}
+.btn--footer-contact {
+  margin-left: 400px;
+}
+.footer-contact__text {
+  position: absolute;
+  width: 370px;
+  top: 159px;
+  right: 332px;
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 14px;
+  font-weight: 400;
 }
