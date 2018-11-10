@@ -307,3 +307,54 @@ img {
   font-size: 14px;
   font-weight: 400;
 }
+
+
+.footer-bottom {
+  min-height: 159px;
+  border: 1px solid #0e5f70;
+  background-color: #0e5f70;
+}
+.footer-left {
+  float: left;
+}
+.footer-right {
+  float: right;
+  width: 581px;
+}
+.footer-navigation__left {
+  margin-right: 94px;
+  float: left;
+}
+.footer-navigation__right {
+  float: right;
+}
+.footer-title {
+  margin-bottom: 9px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-navigation__link {
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.contact-input-email {
+  width: 365px;
+  margin-top: 9px;
+  margin-right: 20px;
+}
+.btn--subscribe{
+  margin-left: 16px;
+  margin-bottom: 24px;
+}
+.footer__copyright {
+  color: white;
+  font-family: "Titillium Web";
+  font-size: 14px;
+  font-weight: 400;
+}
