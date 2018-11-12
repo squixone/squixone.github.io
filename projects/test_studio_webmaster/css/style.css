@@ -89,7 +89,7 @@ img {
   line-height: 26px;
   color: white;
   text-transform: uppercase;
-  background-color: #232838;
+  background-color: transparent;
   border: 0;
   outline: none;
   padding: 0;
@@ -160,7 +160,7 @@ img {
   font-size: 26px;
   font-weight: 400;
 }
-.btn{
+.btn {
   display: inline-block;
   width: 180px;
   margin-bottom: 18px;
@@ -213,7 +213,7 @@ img {
 .news__content:nth-child(4n) {
   margin-right: 0px;
 }
-.news-content-wrapper{
+.news-content-wrapper {
   position: absolute;
   top: 145px;
   background: url(../img/mask.png);
@@ -237,14 +237,14 @@ img {
   margin-bottom: 19px;
   padding: 0 20px;
 }
-.news-content-wrapper:hover{
+.news-content-wrapper:hover {
   top: 0;
   -webkit-transition: top 0.3s ease-out 0.1s;
   -moz-transition: top 0.3s ease-out 0.1s;
   -o-transition: top 0.3s ease-out 0.1s;
   transition: top 0.3s ease-out 0.1s;
 }
-.btn--news__content{
+.btn--news__content {
   margin-left: 20px;
 }
 
@@ -348,7 +348,7 @@ img {
   margin-top: 9px;
   margin-right: 20px;
 }
-.btn--subscribe{
+.btn--subscribe {
   margin-left: 16px;
   margin-bottom: 24px;
 }
@@ -357,4 +357,103 @@ img {
   font-family: "Titillium Web";
   font-size: 14px;
   font-weight: 400;
+}
+
+
+
+@media(max-width: 1150px) {
+  .container {
+    width: auto;
+    text-align: center;
+  }
+  .main-header{
+    min-height: 125px;
+  }
+  .logo {
+    float: none;
+    margin: 15px auto 5px;
+  }
+  .navigation {
+    float: none;
+    margin: 0 auto;
+    line-height: 30px;
+  }
+  .navigation__item {
+    float: none;
+    padding-right: 0;
+  }
+  .navigation__item:nth-child(1)::after,
+  .navigation__item:nth-child(2)::after,
+  .navigation__item:nth-child(3)::after,
+  .navigation__item:nth-child(4)::after, 
+  .navigation__item:nth-child(5)::after,
+  .navigation__item:nth-child(6)::after {
+    position: absolute;
+    content: "";
+    color: #fff;
+    top: 0px;
+    right: 23px;
+  }
+  .navigation__item:last-child {
+    background-position: 44% 50%;
+  }
+  .navigation__item:hover .navigation-dropdown {
+  display: none;
+  }
+  
+  .intro {
+    min-height: 425px;
+  }
+  .intro__title {
+    margin-top: 170px;
+    line-height: 40px;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .intro__text {
+    width: auto;
+    margin-bottom: 10px;
+  }
+
+  .news__content {
+    margin-right: 10px;
+    margin-bottom: 10px
+  }
+  .news__content:nth-child(4n) {
+    margin-right: 10px;
+  }
+  .news-content-wrapper {
+  top: 0px;
+  background: rgba(255, 255, 255, 0.62);
+  }
+
+  .main-footer {
+    margin-top: 10px;
+  }
+  .footer-contact__title {
+    font-size: 36px;
+  }
+  .footer-contact__text {
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 100%;
+    font-size: 16px;
+  }
+  .btn--footer-contact {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .contact-input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 0px;
+  }
+  .footer-left {
+    display: none;
+  }
+  .footer-right {
+    float: none;
+    width: auto;
+ }
 }

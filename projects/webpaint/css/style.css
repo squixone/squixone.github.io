@@ -335,6 +335,9 @@ figure {
     float: none;
     margin: 0 auto;
   }
+  .btn--footer-contact {
+    margin-left: 0px; 
+  }
   .navigation__item {
     float: none;
     display: inline-block;
