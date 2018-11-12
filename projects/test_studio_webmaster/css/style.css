@@ -457,3 +457,15 @@ img {
     width: auto;
  }
 }
+
+@media(max-width: 480px) {
+  .navigation__item:last-child {
+    background-position: 38% 50%;
+  }
+  .footer-contact__text {
+    top: 285px;
+  }
+  .btn--footer-contact {
+    margin-top: 25px;
+  }
+}
