@@ -311,7 +311,7 @@ img {
 
 .footer-bottom {
   min-height: 159px;
-  border: 1px solid #0e5f70;
+  border-top: 1px solid #0e5f70;
   background-color: #0e5f70;
 }
 .footer-left {
@@ -444,6 +444,9 @@ img {
     margin-left: 0px;
     margin-top: 15px;
   }
+  .btn--subscribe {
+    margin-left: 0px;
+  }
   .contact-input {
     width: 100%;
     box-sizing: border-box;
@@ -455,7 +458,7 @@ img {
   .footer-right {
     float: none;
     width: auto;
- }
+  }
 }
 
 @media(max-width: 480px) {
