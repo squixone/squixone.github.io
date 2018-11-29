@@ -448,9 +448,9 @@ img {
     margin-left: 0px;
   }
   .contact-input {
-    width: 100%;
+    width: 95%;
     box-sizing: border-box;
-    margin-right: 0px;
+    margin: 0 auto 20px;
   }
   .footer-left {
     display: none;
